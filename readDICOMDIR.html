@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<title>Read and Dump DICOMDIR</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" >
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="user-scalable=yes, width = device-width, initial-scale = 1, maximum-scale=1">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" sizes="76x76" href="radiologic-76x76.png" />
+		<script type="text/javascript" src="readDICOMDIR.js"></script>
+		<script type="text/javascript" src="dumpDICOMDIR.js"></script> 
+        <script type="text/javascript" src="dicomParser.min.js"></script> 
+        <style>
+        </style>
+        <script>
+        </script>
+    </head>
+    <body>
+        <h3>Read DICOMDIR file</h3> 	
+        <input type="file" id="select-file" onchange="readDICOMDIR(event)" />
+        <div id="dicomdirContent"></div>
+    </body>
+</html>

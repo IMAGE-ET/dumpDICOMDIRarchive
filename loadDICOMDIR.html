@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<title>Load and Dump DICOMDIR</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" >
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="viewport" content="user-scalable=yes, width = device-width, initial-scale = 1, maximum-scale=1">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" sizes="76x76" href="radiologic-76x76.png" />
+		<script type="text/javascript" src="loadDICOMDIR.js"></script> 
+		<script type="text/javascript" src="dumpDICOMDIR.js"></script> 
+        <script type="text/javascript" src="dicomParser.min.js"></script> 
+        <style>
+		#dicomdirContent {margin:16px; display:none}
+        </style>
+        <script>
+        </script>
+    </head>
+    <body>
+        <h3>Dump DICOMDIR file</h3> 
+		<div>		
+        <button onclick="loadDICOMDIR()">Load DICOMDIR file and show content</button>
+		</div>
+        <div id="dicomdirContent"><img alt="ajax-loader" src="ajax-loader.gif" /></div>
+    </body>
+</html>
