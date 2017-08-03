@@ -10,7 +10,7 @@ The present apps dump the content of a DICOMDIR file in a browser web page. Publ
 * load a DICOMDIR file from a remote server : [loadDICOMDIR.html](https://www.radiologic.fr/demos/loadDICOMDIR.html)
 * read a DICOMDIR file from a local folder : [readDICOMDIR.html](https://www.radiologic.fr/demos/readDICOMDIR.html)
 
-[figure]
+![screenshot](https://github.com/mbarnig/dumpDICOMDIRarchive/blob/master/loadDICOMDIR.png)
 
 The dicomParser library of the outstanding open-source cornerstone framework, developed by Chris Hafey, is used to parse the DICOMDIR file. The related javascript file [dicomParser.min.js](https://raw.githubusercontent.com/chafey/dicomParser/master/dist/dicomParser.min.js) is not included in this project, please download it from the [cornerstone GitHub](https://github.com/chafey).
 
