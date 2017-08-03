@@ -1,5 +1,4 @@
-![logo](https://www.radiologic.fr/demos/radiologic-32x32.png)   
-### dumpDICOMDIRarchive
+### dumpDICOMDIRarchive  ![logo](https://www.radiologic.fr/demos/radiologic-32x32.png) 
 
 DICOMDIR is a file which is used when medical images are saved on CD-R, DVD-R, USB flash drives or other external storage devices.
 DICOMDIR records patients and examinations information, and others, as tags of nested structure.   
