@@ -26,6 +26,7 @@ The code has been tested with the following browsers :
 * Chrome 60
 * IE 11
 * Edge 38   
+* Android 6.0
 
 I think the code may be of interest to other developers.
 If you find it useful, you are welcome.
