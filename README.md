@@ -12,6 +12,8 @@ The present apps dump the content of a DICOMDIR file in a browser web page. Publ
 
 ![screenshot](https://github.com/mbarnig/dumpDICOMDIRarchive/blob/master/loadDICOMDIR.png)
 
+The loadDICOMDIR app uses a XMLHttpRequest to download the remote file. For security reasons, browsers restrict such downloads if the requested source is hosted in another domain. This demo server, hosted on [Amazon Web Services](https://aws.amazon.com/) (AWS), uses the [Cross Origin Resource Sharing](https://www.w3.org/TR/cors/) (CORS) protocol to allow cross-origin requests.
+
 The dicomParser library of the outstanding open-source cornerstone framework, developed by Chris Hafey, is used to parse the DICOMDIR file. The related javascript file [dicomParser.min.js](https://raw.githubusercontent.com/chafey/dicomParser/master/dist/dicomParser.min.js) is not included in this project, please download it from the [cornerstone GitHub](https://github.com/chafey).
 
 The present repository is related to the medical project [RadioLogic](https://www.radiologic.fr/index.html).   
